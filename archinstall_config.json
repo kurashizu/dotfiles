@@ -30,7 +30,8 @@
     "uki": true
   },
   "custom_commands": [
-    "echo 'krsz ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/00_krsz"
+    "echo 'krsz ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/00_krsz",
+    "echo 'XMODIFIERS=@im=fcitx' >> /etc/environment"
   ],
   "hostname": "krsz-arch",
   "kernels": ["linux"],
@@ -50,10 +51,16 @@
   },
   "ntp": true,
   "packages": [
+    "bind",
     "btop",
     "cloudflared",
     "dolphin",
     "fastfetch",
+    "fcitx5",
+    "fcitx5-chinese-addons",
+    "fcitx5-gtk",
+    "fcitx5-pinyin-zhwiki",
+    "fcitx5-qt",
     "firefox",
     "git",
     "github-cli",
@@ -62,8 +69,7 @@
     "nodejs",
     "uv",
     "zed",
-    "yt-dlp",
-    "bind"
+    "yt-dlp"
   ],
   "pacman_config": {
     "color": true,
