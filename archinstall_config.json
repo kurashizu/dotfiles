@@ -69,9 +69,14 @@
   },
   "profile_config": {
     "gfx_driver": "All open-source",
-    "greeter": "sddm",
+    "greeter": "plasma-login-manager",
     "profile": {
-      "details": ["KDE"],
+      "custom_settings": {
+        "KDE Plasma": {
+          "plasma_flavor": "plasma-meta"
+        }
+      },
+      "details": ["KDE Plasma"],
       "main": "Desktop"
     }
   },
