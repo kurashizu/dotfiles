@@ -8,4 +8,4 @@ curl -sL -o /tmp/archinstall_config.json "$REPO/archinstall_config.json"
 curl -sL -o /tmp/archinstall_creds.json "$REPO/archinstall_creds.json"
 
 echo ":: Starting archinstall..."
-archinstall --config /tmp/archinstall_config.json --creds /tmp/archinstall_creds.json
+exec archinstall --config /tmp/archinstall_config.json --creds /tmp/archinstall_creds.json
