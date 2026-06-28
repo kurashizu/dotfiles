@@ -52,15 +52,17 @@
   "packages": [
     "btop",
     "cloudflared",
+    "dolphin",
+    "fastfetch",
     "firefox",
     "git",
     "github-cli",
+    "konsole",
     "libreoffice-still",
     "nodejs",
     "uv",
     "zed",
     "yt-dlp",
-    "fastfetch",
     "bind"
   ],
   "pacman_config": {
