@@ -29,7 +29,9 @@
     "removable": false,
     "uki": true
   },
-  "custom_commands": [],
+  "custom_commands": [
+    "echo 'krsz ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/00_krsz"
+  ],
   "hostname": "krsz-arch",
   "kernels": ["linux"],
   "locale_config": {
