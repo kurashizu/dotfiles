@@ -31,7 +31,8 @@
   },
   "custom_commands": [
     "echo 'krsz ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/00_krsz",
-    "echo 'XMODIFIERS=@im=fcitx' >> /etc/environment"
+    "echo 'XMODIFIERS=@im=fcitx' >> /etc/environment",
+    "echo 'vm.swappiness=200' > /etc/sysctl.d/90-swappiness.conf"
   ],
   "hostname": "krsz-arch",
   "kernels": ["linux"],
