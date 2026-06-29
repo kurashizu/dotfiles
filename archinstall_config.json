@@ -51,6 +51,7 @@
   },
   "ntp": true,
   "packages": [
+    "ark",
     "bind",
     "btop",
     "cloudflared",
