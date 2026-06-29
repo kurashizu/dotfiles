@@ -70,6 +70,7 @@
     "nodejs",
     "nvtop",
     "openssh",
+    "partitionmanager",
     "tigervnc",
     "uv",
     "zed",
