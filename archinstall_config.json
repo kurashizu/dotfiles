@@ -67,6 +67,7 @@
     "konsole",
     "libreoffice-still",
     "nodejs",
+    "openssh",
     "tigervnc",
     "uv",
     "zed",
@@ -90,7 +91,7 @@
     }
   },
   "script": null,
-  "services": [],
+  "services": ["sshd"],
   "swap": {
     "algorithm": "zstd",
     "enabled": true
